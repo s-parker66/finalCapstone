@@ -43,9 +43,9 @@ Downloading the Project
 Clone the Repository: Open a terminal or command prompt and run the following command to clone the GitHub repository:
 
 EXAMPLE: git clone https://github.com/username/project-name.git
-Replace https://github.com/username/project-name.git with the actual URL of your project's repository.
+Replace https://github.com/username/project-name.git with the actual URL of the project's repository.
 
-Alternatively, Download Manually: If not cloning, users can download the project manually by navigating to the GitHub repository in a web browser, clicking the "Code" button, and selecting "Download ZIP". After downloading, unzip the folder to a desired location.
+Alternatively, Download Manually: If not cloning, you can download the project manually by navigating to the GitHub repository in a web browser, clicking the "Code" button, and selecting "Download ZIP". After downloading, unzip the folder to a desired location.
 
 
 (1.1)-------------------------------Setting Up Visual Studio Code---------------------
@@ -73,48 +73,48 @@ The default username is: "admin"
 The default password is: "password"
 you can then start adding tasks or new users as required.
 
-![alt text](<Screenshot 2024-03-07 113941.png>)
+![img](https://private-user-images.githubusercontent.com/151395535/310897977-22e55b78-4345-4ff4-85db-5eaa4356c3fe.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk4MTkwODQsIm5iZiI6MTcwOTgxODc4NCwicGF0aCI6Ii8xNTEzOTU1MzUvMzEwODk3OTc3LTIyZTU1Yjc4LTQzNDUtNGZmNC04NWRiLTVlYWE0MzU2YzNmZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwN1QxMzM5NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MGIxZTQyNzBiMTAyZTU3ZGEyMzk2MTJjZDVlMTgzNDhhYTM0MjU2MTBlNjQzOGJmNjk2MTgxNmJjZTRkMGI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Y8qPMHsfYaaXwAVq6sTIMK7YuHVgGxgXlhLdxst2gSA)
   
 --------------------------------------------------------------------------------------
 After adding tasks, you will be able to view all tasks and if necessary, assign another users task to yourself.
 If no other users are added in the program, you will have to create a new user and a task.
 
-![alt text](<Screenshot 2024-03-07 114000.png>)
+![img](https://private-user-images.githubusercontent.com/151395535/310897982-e8f9c088-678a-4bb2-976d-87ed7b02e338.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk4MTkwODQsIm5iZiI6MTcwOTgxODc4NCwicGF0aCI6Ii8xNTEzOTU1MzUvMzEwODk3OTgyLWU4ZjljMDg4LTY3OGEtNGJiMi05NzZkLTg3ZWQ3YjAyZTMzOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwN1QxMzM5NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMmFiOTk4Y2RhYzUwNjhiODU0ZjllYzE5YWMzMDNmZTQ0ZTA4ZmM3YTlkMWJiYzg0YjJjODBhOWY0NWJlZWUxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.1rKD3ZO483VBiXghvI7ejsEHLl7nh3PfQ9Wh9MCC5tc)
 
 --------------------------------------------------------------------------------------
 After creating a new user you can create new tasks for that user.
 
-![alt text](<Screenshot 2024-03-07 114016.png>) 
+![img](https://private-user-images.githubusercontent.com/151395535/310897984-c50e8acd-c1a0-4a2e-add6-c2b146ee67c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk4MTkwODQsIm5iZiI6MTcwOTgxODc4NCwicGF0aCI6Ii8xNTEzOTU1MzUvMzEwODk3OTg0LWM1MGU4YWNkLWMxYTAtNGEyZS1hZGQ2LWMyYjE0NmVlNjdjMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwN1QxMzM5NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNmRiYTQ2MTM1ZTc2OGY0MWJkOWYzM2UxMjFkN2FjNWM4NTAzMzEzZDc3YzlhOWQxOTNkZWZmMWQ0YzVlMTQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.XWAMMe2y0S68cS4Cl7TAiTB3z4BSI6FaQGYUD1Qd1cw) 
 
 --------------------------------------------------------------------------------------
 Once other users and tasks have been added you can then assign their tasks to yourself.
 
-![alt text](<Screenshot 2024-03-07 114033.png>) 
+![img](https://private-user-images.githubusercontent.com/151395535/310897987-cce0aaea-7041-4b6f-b7f5-e42757a25234.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk4MTkwODQsIm5iZiI6MTcwOTgxODc4NCwicGF0aCI6Ii8xNTEzOTU1MzUvMzEwODk3OTg3LWNjZTBhYWVhLTcwNDEtNGI2Zi1iN2Y1LWU0Mjc1N2EyNTIzNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwN1QxMzM5NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MjVjZmViYjllNjE2ODc3ZDI1ZTI2ODgxMzhjOWE1ODg3OTIxNDY0MDkyMmJiYWQ0OGQ2ZGRiNGNmZGIzYjIyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.bl8cJVm3fzy608tIptFHMLAa1Vnl4R-5TBHJiVqvLuo) 
 
 --------------------------------------------------------------------------------------
 You can edit your own tasks. Once picking one of your tasks you can assign it to another user, edit the due date, mark as complete, or return to either of the menus.
 
-![alt text](<Screenshot 2024-03-07 114106.png>) 
+![img](https://private-user-images.githubusercontent.com/151395535/310897991-53b05799-5fd3-4b06-8672-154dda91cafa.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk4MTkwODQsIm5iZiI6MTcwOTgxODc4NCwicGF0aCI6Ii8xNTEzOTU1MzUvMzEwODk3OTkxLTUzYjA1Nzk5LTVmZDMtNGIwNi04NjcyLTE1NGRkYTkxY2FmYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwN1QxMzM5NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02MWY4MDRmZTAyNDQ1MTE0MWU4M2ZmNTE2ZDU0ZmIxOGM0ZDY4ODNhODg4NTExMmFjY2NhNTlkNzk0NWI1MGYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Eg8Hr43P-LmRIoHU0WDLMRcqzMWzhgJcgVvTAtbqf4U) 
 
 --------------------------------------------------------------------------------------
 You can generate a report to which will show task and user data.
 
-![alt text](<Screenshot 2024-03-07 114138.png>) 
+![img](https://private-user-images.githubusercontent.com/151395535/310897994-94e3c5be-e7de-4469-9921-7b519d45d495.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk4MTkwODQsIm5iZiI6MTcwOTgxODc4NCwicGF0aCI6Ii8xNTEzOTU1MzUvMzEwODk3OTk0LTk0ZTNjNWJlLWU3ZGUtNDQ2OS05OTIxLTdiNTE5ZDQ1ZDQ5NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwN1QxMzM5NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMWFiNjM0MmExMjMwNzc5NGYyMDcxYTFiYWFiMmQ1YjgzOTU0ZjliMmQzNTM1NjY4YzRhNTI3ZTdiMWM4OWI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.tXZ7rU1697BiQ8J8ZX-vyfR--y06tQzmyzFaemNbbRI) 
 
 --------------------------------------------------------------------------------------
 You can view the report data in the terminal by displaying statistics
 
-![alt text](<Screenshot 2024-03-07 114159.png>)
+![img](https://private-user-images.githubusercontent.com/151395535/310897997-9486b47a-e69c-4964-bcae-fc1894a820f4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk4MTkwODQsIm5iZiI6MTcwOTgxODc4NCwicGF0aCI6Ii8xNTEzOTU1MzUvMzEwODk3OTk3LTk0ODZiNDdhLWU2OWMtNDk2NC1iY2FlLWZjMTg5NGE4MjBmNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwN1QxMzM5NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYzNlMDY0MTJiMDY3ODU2ZDE4NWQ3ZTg0NGY3NWZiOTYyMDhlODczOGUwNTFkZjExYTRhMjJiNmRmMmNjMzMyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.z6ENtu1ZAujB_TKZ4xEdgQzSFNM6LNcaglfaKHrMZAg)
 
 --------------------------------------------------------------------------------------
 You can view the task overview text file if you wanted to print it out
 
-![alt text](<Screenshot 2024-03-07 125640.png>)
+![img](https://private-user-images.githubusercontent.com/151395535/310898000-88bfd358-b25d-40d7-b522-dd51eb554c69.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk4MTkwODQsIm5iZiI6MTcwOTgxODc4NCwicGF0aCI6Ii8xNTEzOTU1MzUvMzEwODk4MDAwLTg4YmZkMzU4LWIyNWQtNDBkNy1iNTIyLWRkNTFlYjU1NGM2OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwN1QxMzM5NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02MWIwNjMyODIwMzQ2NDQwMTU3ODA3NDhiNWE0MjJmNTE3OTMxOTNkZDFlM2U4NzNlNWQ3ZDgzYTFmNDU1M2RiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.TYzflUGOaNF7zFM3LZA8ux-60J-HFpWJ3uL9-Ob2gu8)
 
 --------------------------------------------------------------------------------------
 You can view the user overview text file if you wanted to print it out
 
-![alt text](<Screenshot 2024-03-07 125701.png>)
+![img](https://private-user-images.githubusercontent.com/151395535/310898002-48c32108-7797-403a-ba5f-bf442570ab6a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk4MTkwODQsIm5iZiI6MTcwOTgxODc4NCwicGF0aCI6Ii8xNTEzOTU1MzUvMzEwODk4MDAyLTQ4YzMyMTA4LTc3OTctNDAzYS1iYTVmLWJmNDQyNTcwYWI2YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwN1QxMzM5NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NmYwNjBlYWYwNGQwN2U5OTU0NmM1YTY2ZDQzN2JiODMwMGFiZTc2NDllNjE3Zjk5YzFiODAxZTczYWI3OGJjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9._CGgFEoNcPBa-BYiD_5TW5pynjmRA9ijPqm4X2gMsng)
 
 --------------------------------------------------------------------------------------
 
