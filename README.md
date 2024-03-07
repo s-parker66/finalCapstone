@@ -21,10 +21,15 @@ read and understand
 --------------------------------Table of Contents-------------------------------------
 
 1.0: Installing the Program
+
 1.1: Setting Up Visual Studio Code
+
 1.2: Running the Program
+
 2.0: Using the Program
+
 3.0: Original Code
+
 4.0: Credits
 
 --------------------------------------------------------------------------------------
@@ -42,8 +47,11 @@ Python: The project is written in Python, ensure it is installed and properly co
 Downloading the Project
 Clone the Repository: Open a terminal or command prompt and run the following command to clone the GitHub repository:
 
-EXAMPLE: git clone https://github.com/username/project-name.git
-Replace https://github.com/username/project-name.git with the actual URL of the project's repository.
+EXAMPLE: 
+
+git clone https://github.com/username/project-name.git
+
+Replace example with the actual URL of the project's repository.
 
 Alternatively, Download Manually: If not cloning, you can download the project manually by navigating to the GitHub repository in a web browser, clicking the "Code" button, and selecting "Download ZIP". After downloading, unzip the folder to a desired location.
 
@@ -124,32 +132,48 @@ You can view the user overview text file if you wanted to print it out
 
 
 #=====importing libraries===========
+
 import os
 from datetime import datetime, date
 
 DATETIME_STRING_FORMAT = "%Y-%m-%d"
 
+
 #Create tasks.txt if it doesn't exist
+
 if not os.path.exists("tasks.txt"):
+
     with open("tasks.txt", "w") as default_file:
+
         pass
 
 with open("tasks.txt", 'r') as task_file:
+
     task_data = task_file.read().split("\n")
+
     task_data = [t for t in task_data if t != ""]
 
 
 task_list = []
+
 for t_str in task_data:
+
     curr_t = {}
 
     # Split by semicolon and manually add each component
+
     task_components = t_str.split(";")
+
     curr_t['username'] = task_components[0]
+
     curr_t['title'] = task_components[1]
+
     curr_t['description'] = task_components[2]
+
     curr_t['due_date'] = datetime.strptime(task_components[3], DATETIME_STRING_FORMAT)
+
     curr_t['assigned_date'] = datetime.strptime(task_components[4], DATETIME_STRING_FORMAT)
+
     curr_t['completed'] = True if task_components[5] == "Yes" else False
 
     task_list.append(curr_t)
@@ -158,52 +182,85 @@ for t_str in task_data:
 #====Login Section====
 
 '''This code reads usernames and password from the user.txt file to 
+
     allow a user to login.
 '''
 
 #If no user.txt file, write one with a default account
+
 if not os.path.exists("user.txt"):
+
     with open("user.txt", "w") as default_file:
+
         default_file.write("admin;password")
 
 #Read in user_data
+
 with open("user.txt", 'r') as user_file:
+
     user_data = user_file.read().split("\n")
 
 #Convert to a dictionary
+
 username_password = {}
+
 for user in user_data:
+
     username, password = user.split(';')
+
     username_password[ 'username'] = password
 
 logged_in = False
+
 while not logged_in:
 
     print("LOGIN")
+
     curr_user = input("Username: ")
+
     curr_pass = input("Password: ")
+
     if curr_user not in username_password.keys():
+
         print("User does not exist")
+
         continue
+
     elif username_password[curr_user] != curr_pass:
+
         print("Wrong password")
+
         continue
+
     else:
+
         print("Login Successful!")
+
         logged_in = True
 
 
 while True:
+
     # presenting the menu to the user and 
+
     # making sure that the user input is converted to lower case.
+
     print()
+
     menu = input('''Select one of the following Options below:
+    
 r - Registering a user
+
 a - Adding a task
+
 va - View all tasks
+
 vm - View my task
+
 ds - Display statistics
+
 e - Exit
+
 : ''').lower()
 
     if menu == 'r':
