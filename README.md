@@ -129,7 +129,7 @@ from datetime import datetime, date
 
 DATETIME_STRING_FORMAT = "%Y-%m-%d"
 
-# Create tasks.txt if it doesn't exist
+#Create tasks.txt if it doesn't exist
 if not os.path.exists("tasks.txt"):
     with open("tasks.txt", "w") as default_file:
         pass
@@ -156,23 +156,25 @@ for t_str in task_data:
 
 
 #====Login Section====
+
 '''This code reads usernames and password from the user.txt file to 
     allow a user to login.
 '''
-# If no user.txt file, write one with a default account
+
+#If no user.txt file, write one with a default account
 if not os.path.exists("user.txt"):
     with open("user.txt", "w") as default_file:
         default_file.write("admin;password")
 
-# Read in user_data
+#Read in user_data
 with open("user.txt", 'r') as user_file:
     user_data = user_file.read().split("\n")
 
-# Convert to a dictionary
+#Convert to a dictionary
 username_password = {}
 for user in user_data:
     username, password = user.split(';')
-    username_password[username] = password
+    username_password[ 'username'] = password
 
 logged_in = False
 while not logged_in:
